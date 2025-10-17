@@ -23,7 +23,7 @@ def file2matrix(filename):
     return return_mat,class_label_vector
 
 
-file_path = r"C:\Users\Administrator\Desktop\lesson1\datingTestSet2.txt"
+file_path = r"C:\Users\liyan\Desktop\lesson1\datingTestSet2.txt"
 dating_data_mat, dating_labels = file2matrix(file_path)
 
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体
